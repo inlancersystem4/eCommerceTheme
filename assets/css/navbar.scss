@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid $color7;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+
+    .Navbar {
+        display: flex;
+        align-items: stretch;
+        width: 100%;
+        list-style: none;
+
+
+        &:nth-last-child(1) {
+            flex-direction: row-reverse;
+
+            .NavList {
+
+                :nth-of-type(2) {
+
+                    border-right: 0;
+
+                }
+            }
+
+        }
+
+
+
+        .NavList {
+            display: flex;
+            align-items: stretch;
+            list-style: none;
+
+
+            li {
+                justify-content: center;
+                align-items: center;
+                padding: 2.23vw;
+                display: flex;
+                width: 100%;
+                border-right: 1px solid $color7;
+
+                &:nth-last-child(2) {
+                    border-left: 1px solid $color7;
+                }
+
+                .nav-link {
+                    width: 100%;
+                    text-align: center;
+                    text-transform: capitalize;
+                    display: block;
+                }
+            }
+        }
+    }
+}

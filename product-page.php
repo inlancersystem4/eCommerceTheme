@@ -1,5 +1,13 @@
 <?php include 'header.php';?>
 
+<script>
+    jQuery(document).ready(function () {
+        jQuery(".product-img").zbox({
+            margin: 40
+        });
+    });
+</script>
+
 
 <section class="w-100 container border-b product-page">
     <div class="grid-wrapper-left">
@@ -29,16 +37,16 @@
                 resist. Hints of blue, coupled with ivory and lavender, make it a harmonious choice that is both
                 calming and balancing. It’s the obvious choice for adding some soft sweetness and tranquility to
                 your space.</p>
-            <div class="product-quantity">
+                <div class="product-quantity">
                 <p class="subtitle">Quantity</p>
                 <div class="quantity-box">
-                    <button>
+                    <button class="decrement">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
                             <path d="M5.25 12.75v-1.5h13.5v1.5Z" />
                         </svg>
                     </button>
-                    <input type="number" value="1">
-                    <button>
+                    <input type="number" value="1" max="99">
+                    <button class="increment">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
                             <path d="M11.25 18.75v-6h-6v-1.5h6v-6h1.5v6h6v1.5h-6v6Z" />
                         </svg>
@@ -61,7 +69,7 @@
                     </label>
                 </div>
             </form>
-            <button class="button w-100 link">add to basket</button>
+            <button class="button w-100 link openDrawer">add to basket</button>
         </div>
     </div>
 </section>
@@ -115,13 +123,3 @@
 
 
 <?php include 'footer.php';?>
-
-
-  
-<div class="overlay"></div>
-
-
-
-
-
-

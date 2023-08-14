@@ -524,10 +524,18 @@ a:hover {
   -o-transition: 0.5s;
 }
 
+.product-drawer-show {
+  right: 0 !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
 .product-drawer {
   position: fixed;
-  display: none;
-  right: 0;
+  right: -50dvw;
   top: 0;
   height: 100dvh;
   width: 100%;
@@ -536,6 +544,11 @@ a:hover {
   z-index: 1828;
   overflow-y: auto;
   border-left: 1px solid #000000;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .product-drawer .drawer-head {
   border-bottom: 1px solid #000000;

@@ -394,6 +394,68 @@
 
     }
 
+    .contact-section {
+        .grid-wrapper-right {
+            grid-row: 1;
+        }
+
+        .grid-wrapper-left {
+            .container {
+                grid-template-columns: 1fr 1fr;
+
+                .grid-wrapper-right {
+                    grid-row: auto;
+                    display: block;
+                    border-left: 1px solid $color7;
+                }
+            }
+
+            .input-group {
+                flex-direction: column;
+
+                input {
+                    padding: 2.34dvw 2.08dvw;
+                    font-family: 2dvw;
+                }
+
+                .button {
+                    padding: 2.34dvw 2.08dvw;
+                }
+
+            }
+
+            .title {
+                margin-bottom: 3.15dvw;
+            }
+
+            .sub-title {
+                margin-bottom: 3.125dvw;
+            }
+
+
+            .social-media-link {
+                a {
+                    display: block;
+
+                    svg {
+                        display: block;
+                        width: 3.125vw;
+                        height: 3.125vw;
+                    }
+                }
+            }
+
+        }
+
+        .section-heading {
+            padding: 2.08vw 3.125vw;
+        }
+
+        .section-box-wrap {
+            height: 28dvw;
+        }
+    }
+
 
     .product-page {
         .grid-wrapper-left {
@@ -558,4 +620,127 @@
         }
     }
 
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) {
+
+    html,
+    body {
+        font-size: 4.3vw;
+    }
+
+    h1 {
+        font-size: 12vw;
+    }
+
+    h2 {
+        font-size: 10vw;
+    }
+
+    h3 {
+        font-size: 6.9vw;
+    }
+
+    h4 {
+        font-size: 5.86vw;
+    }
+
+    h5 {
+        font-size: 4.8vw;
+    }
+
+    h6 {
+        font-size: 4.3vw;
+    }
+
+    p {
+        font-size: 4.3vw;
+        line-height: 130%;
+    }
+
+    .link {
+        font-size: 3.7vw;
+    }
+
+    .overline {
+        letter-spacing: .101vw;
+        font-size: 3.2vw;
+    }
+
+    .subtitle {
+        font-size: 4.8vw;
+    }
+
+    .content {
+        padding: 10.7vw 4.3vw;
+    }
+
+    .caption-small {
+        font-size: 2.9dvw;
+    }
+
+    .herosection {
+        .hero-row1 {
+            .title {
+                margin-bottom: 2.08dvw;
+            }
+
+            .subtitle {
+                margin-bottom: 4.2dvw;
+            }
+        }
+
+        .hero-row2 {
+            .column1 {
+                img {
+                    height: 41vw;
+                }
+            }
+        }
+    }
+
+    .shop-card-category {
+        .card-category {
+            height: 53.4dvw;
+            padding: 3.2dvw;
+        }
+
+        .card-category-img {
+            height: 53.4dvw
+        }
+    }
+
+    .aboutsection {
+        .grid-wrapper-right {
+            .overline {
+                margin-bottom: 6.42dvw;
+            }
+
+            .title {
+                margin-bottom: 4.28dvw;
+            }
+
+            .sub-title {
+                margin-bottom: 17dvw;
+            }
+        }
+    }
+
+    .choose_us-section {
+        .grid-wrapper-right {
+            .content {
+                .title {
+                    margin-bottom: 4.28dvw;
+                }
+            }
+        }
+    }
 }

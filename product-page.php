@@ -25,7 +25,7 @@
     <div class="grid-wrapper-right">
         <div class="content-small">
             <div class="product-category-name">
-                <a href="#" class="overline">Fresh Flowers</a> <b class="overline">/</b>
+                <a href="./product-categorie.php" class="overline">Fresh Flowers</a> <b class="overline">/</b>
                 <a href="#" class="overline">Blue Harmony</a>
             </div>
             <div class="product-name">
@@ -37,7 +37,7 @@
                 resist. Hints of blue, coupled with ivory and lavender, make it a harmonious choice that is both
                 calming and balancing. It’s the obvious choice for adding some soft sweetness and tranquility to
                 your space.</p>
-                <div class="product-quantity">
+            <div class="product-quantity">
                 <p class="subtitle">Quantity</p>
                 <div class="quantity-box">
                     <button class="decrement">

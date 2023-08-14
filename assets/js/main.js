@@ -28,7 +28,7 @@ $(".openDrawer").click(function () {
 })
 
 $('.increment').click(function () {
-    var input = $(this).siblings('input[type="number"]');
+    var input = $(this).siblings('input');
     var currentValue = parseInt(input.val());
     if (currentValue < 99) {
         input.val(currentValue + 1);
@@ -36,7 +36,7 @@ $('.increment').click(function () {
 });
 
 $('.decrement').click(function () {
-    var input = $(this).siblings('input[type="number"]');
+    var input = $(this).siblings('input');
     var currentValue = parseInt(input.val());
     if (currentValue > 1) {
         input.val(currentValue - 1);

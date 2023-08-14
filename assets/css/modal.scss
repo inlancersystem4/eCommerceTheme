@@ -1,9 +1,13 @@
+.modal {
+    display: none !important;
+}
+
 .modal-center {
     position: fixed;
     top: 50%;
     left: 50%;
     z-index: 1440;
-    padding: 2dvw 0;
+    padding: 3dvw 0;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -15,6 +19,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: modal 1s ease forwards;
+    -webkit-animation: modal 1s ease forwards;
+    zoom: 0;
+
+
+
+    @keyframes modal {
+        100% {
+            zoom: 1;
+        }
+    }
 
     .modal-content {
         background-color: white;

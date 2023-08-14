@@ -1,146 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
-</head>
-
-<body>
-
-    <header class="header">
-        <ul class="Navbar">
-            <ul class="w-100 NavList">
-                <li>
-                    <a href="#" class="nav-link link">Shop</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link link">Contact</a>
-                </li>
-            </ul>
-            <li class="w-100"></li>
-        </ul>
-        <ul class="Navbar">
-            <ul class="w-100 NavList">
-                <li>
-                    <a href="#" class="nav-link link">Sign in</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link link">Cart</a>
-                </li>
-            </ul>
-            <li class="w-100"></li>
-        </ul>
-    </header>
+<?php include 'header.php';?>
 
 
-    <section class="w-100 border-b container herosection">
-        <div class="grid-wrapper-left">
-            <div class="sticky">
-                <div class="height-full flex-center">
-                    <div class="content text-center">
-                        <h1>Choose a Сategory</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="grid-wrapper-right">
-            <div class="shop-card-category">
-                <div class="card-category">
-                    <div class="content-card">
-                        <h3 class="text-center">Fresh Flowers</h3>
-                        <a href="#" class="link link-icon-right">
-                            <p> Shop now </p>
-                            <img src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/64a2b0c7cd074ceda248eb82_arrow-right.svg"
-                                alt="">
-                        </a>
-                    </div>
-                </div>
-                <a href="#" class="card-category-img">
-                    <img
-                        src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/6433f83e04baa8bd18fe1321_point-du-jour%25202%2520copy-p-500.webp">
-                </a>
-            </div>
-            <div class="shop-card-category">
-                <a href="#" class="card-category-img">
-                    <img
-                        src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/64a040efb275c16702e85ef0_saxs.webp">
-                </a>
-                <div class="card-category">
-                    <div class="content-card">
-                        <h3 class="text-center">Dried Flowers</h3>
-                        <a href="#" class="link link-icon-left">
-                            <p> shop now </p>
-                            <img src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/64a2b0c7cd074ceda248eb82_arrow-right.svg"
-                                alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="shop-card-category">
-                <div class="card-category">
-                    <div class="content-card">
-                        <h3 class="text-center">Fresh Flowers</h3>
-                        <a href="#" class="link link-icon-right">
-                            <p> Shop now </p>
-                            <img src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/64a2b0c7cd074ceda248eb82_arrow-right.svg"
-                                alt="">
-                        </a>
-                    </div>
-                </div>
-                <a href="#" class="card-category-img">
-                    <img
-                        src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/6433f83e04baa8bd18fe1321_point-du-jour%25202%2520copy-p-500.webp">
-                </a>
-            </div>
-            <div class="shop-card-category">
-                <a href="#" class="card-category-img">
-                    <img
-                        src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/64a040efb275c16702e85ef0_saxs.webp">
-                </a>
-                <div class="card-category">
-                    <div class="content-card">
-                        <h3 class="text-center">Dried Flowers</h3>
-                        <a href="#" class="link link-icon-left">
-                            <p> shop now </p>
-                            <img src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/64a2b0c7cd074ceda248eb82_arrow-right.svg"
-                                alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <footer class="w-100 footer-grid">
-        <div class="footer-column">
-            <p>Remember to offer beautiful flowers from Kyiv Florist Studio Valentines Day, Mothers Day, Christmas...
-                Reminds you 7 days before. No spam or sharing your address</p>
-            <form action="#" class="input-group">
-                <input type="text">
-                <a href="#" class="button">reach us</a>
-            </form>
-        </div>
-        <div class="footer-column">
-            <h5 class="footer-title">Contact Us</h5>
-            <div class="footer-colum-wrap-links">
-                <p class="caption-small">Address</p>
-                <a href="#">15/4 Khreshchatyk Street, Kyiv</a>
-            </div>
-            <div class="footer-colum-wrap-links">
-                <p class="caption-small">Phone</p>
-                <a href="#">+380980099777</a>
-            </div>
-            <div class="footer-colum-wrap-links">
-                <p class="caption-small">General Enquiry:</p>
-                <a href="#">jeetkasundra3@gmail.com</a>
-            </div>
-            <h5 class="footer-title"></h5>
-            <h5 class="footer-title">Follow Us</h5>
+<section class="w-100 container border-b about-hero-section align-items-center">
+    <div class="grid-wrapper-left">
+        <div class="content flex-vertical-center text-center">
+            <h2 class="heading">Our Story</h2>
+            <h2 class="title">Kyiv LuxeBouquets</h2>
+            <p class="subtitle">Discover Uniquely Crafted Bouquets and Gifts for Any Occasion: Spread Joy with Our
+                <i>Online Flower Delivery Service</i>
+            </p>
             <div class="social-media-link">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
@@ -185,38 +53,81 @@
                 </a>
             </div>
         </div>
-        <div class="footer-column">
-            <h5 class="footer-title">Shop</h5>
-            <div class="footer-colum-wrap-links">
-                <a href="#" class="link">All Products</a>
-                <a href="#" class="link">Fresh Flowers</a>
-                <a href="#" class="link">Dried Flowers</a>
-                <a href="#" class="link">Live Plants</a>
-                <a href="#" class="link">Aroma Candles</a>
-                <a href="#" class="link">Designer Vases</a>
-                <a href="#" class="link">Freshener Diffuser</a>
-            </div>
-            <h5 class="footer-title"></h5>
-            <h5 class="footer-title">Service</h5>
-            <div class="footer-colum-wrap-links">
-                <a href="#" class="link">Flower Subscription</a>
-                <a href="#" class="link">Wedding & Event Decor</a>
-            </div>
+    </div>
+    <div class="grid-wrapper-right">
+        <img src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/6442512f0b353c7303729616_image-p-800.png">
+    </div>
+</section>
+
+<section class="w-100 border-b content abouttext">
+    <div class="flex-vertical-center text-center">
+        <p class="sub-heading">About Us</p>
+        <h3 class="heading">Our Founder's Passion</h3>
+        <p class="text">Kyiv LuxeBouquets was founded in 2010 by Natalia Zelinska with the goal of bringing unique
+            and exquisite
+            bouquets to the people of Kyiv. Natalia has always had a passion for flowers and design, and his vision
+            was to create a local floral studio that would specialize in the creation and delivery of fresh,
+            beautiful, and distinctive bouquets.</p>
+    </div>
+</section>
+
+
+<section class="w-100 border-b container zac_zak-grid">
+    <div class="grid-wrapper-left">
+        <div class="fix-height">
+            <img
+                src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/6442743a10be975a90b4a942_Rectangle-74-p-800.png">
         </div>
-        <div class="footer-column">
-            <h5 class="footer-title">About Us</h5>
-            <div class="footer-colum-wrap-links">
-                <a href="#" class="link">Our Story</a>
-                <a href="#" class="link">Blog</a>
-            </div>
-            <h5 class="footer-title"></h5>
-            <div class="footer-colum-wrap-links">
-                <a href="#" class="link">Shipping & returns</a>
-                <a href="#" class="link">Terms & conditions</a>
-                <a href="#" class="link">Privacy policy</a>
-            </div>
+    </div>
+    <div class="grid-wrapper-right">
+        <div class="sticky content">
+            <h3 class="title">Expertly Crafted Bouquets</h3>
+            <p class="sub-title">At Kyiv LuxeBouquets, we take pride in our team of talented and experienced
+                florists who carefully
+                select each bloom, ensuring that only the freshest and most stunning flowers make it into our
+                bouquets. We work directly with farms to source the highest quality flowers, and our skilled
+                florists expertly craft each bouquet to perfection.</p>
         </div>
-    </footer>
+    </div>
+</section>
+<section class="w-100 border-b container zac_zak-grid">
+    <div class="grid-wrapper-left">
+        <div class="sticky content">
+            <h3 class="title">Bouquets, Gifts & Ambiance</h3>
+            <p class="sub-title">In addition to our stunning bouquets, we also offer a collection of dried bouquets,
+                house plants, and fragrant candles from luxury brands to create the perfect ambiance. We believe
+                that sending flowers, plants, and gifts should be easy and stress-free, which is why we offer same
+                or next-day delivery throughout Kyiv.</p>
+        </div>
+    </div>
+    <div class="grid-wrapper-right">
+        <div class="fix-height">
+            <img
+                src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/644281896d2dc44845a365da_books-vase-diffuser.webp">
+        </div>
+    </div>
+</section>
+<section class="w-100 border-b container zac_zak-grid">
+    <div class="grid-wrapper-left">
+        <div class="fix-height">
+            <img
+                src="https://uploads-ssl.webflow.com/6400d82951450021c2d1eb7b/64427ecc153b4214c3e97f49_gift-roses%20copy-p-800.webp">
+        </div>
+    </div>
+    <div class="grid-wrapper-right">
+        <div class="sticky content">
+            <h3 class="title">Making Every Day Special</h3>
+            <p class="sub-title">Our mission is simple: to make every day special and memorable for our customers.
+                We are dedicated to providing the highest quality flowers, exceptional customer service, and a
+                seamless online experience that will make you feel confident and satisfied with your purchase.Thank
+                you for choosing Kyiv LuxeBouquets. We look forward to bringing joy and happiness to your life with
+                our beautiful bouquets and gifts.</p>
+        </div>
+    </div>
+</section>
+
+<?php include 'footer.php';?>
+
 
 </body>
 

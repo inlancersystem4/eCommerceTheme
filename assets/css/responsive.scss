@@ -450,6 +450,16 @@
         padding: 5.3dvw;
     }
 
+    .modal-center {
+        padding: 0;
+
+
+        .modal-content {
+            max-width: 100%;
+            min-height: 100dvh;
+        }
+    }
+
 }
 
 
@@ -526,6 +536,25 @@
     .shop-card-category {
         .card-category {
             padding: 4.16dvw;
+        }
+    }
+
+
+    .modal-center {
+        .modal-content {
+            padding: 6dvw;
+
+            .input-group {
+                input {
+                    padding: 1.8dvw 2.4dvw;
+                    font-size: 2.2dvw;
+                }
+            }
+
+            .modal-divider {
+                margin: 6dvw 0;
+            }
+
         }
     }
 

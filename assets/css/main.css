@@ -1756,39 +1756,39 @@ a:hover {
 @media (max-width: 480px) {
   html,
   body {
-    font-size: 4.3vw;
+    font-size: 3.6dvw;
   }
   h1 {
-    font-size: 12vw;
+    font-size: 9dvw;
   }
   h2 {
-    font-size: 10vw;
+    font-size: 7.8dvw;
   }
   h3 {
-    font-size: 6.9vw;
+    font-size: 5.4dvw;
   }
   h4 {
-    font-size: 5.86vw;
+    font-size: 4.2dvw;
   }
   h5 {
-    font-size: 4.8vw;
+    font-size: 3.9dvw;
   }
   h6 {
-    font-size: 4.3vw;
+    font-size: 3dvw;
   }
   p {
-    font-size: 4.3vw;
+    font-size: 3.2dvw;
     line-height: 130%;
   }
   .link {
-    font-size: 3.7vw;
+    font-size: 2.8dvw;
   }
   .overline {
-    letter-spacing: 0.101vw;
-    font-size: 3.2vw;
+    letter-spacing: 0.101dvw;
+    font-size: 2.8dvw;
   }
   .subtitle {
-    font-size: 4.8vw;
+    font-size: 3.9dvw;
   }
   .content {
     padding: 10.7vw 4.3vw;
@@ -1877,5 +1877,8 @@ a:hover {
     width: 6.4dvw;
     height: 6.4dvw;
     display: block;
+  }
+  .bg-section {
+    height: 124dvw;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -1858,4 +1858,21 @@ a:hover {
     height: 6.425vw;
     display: block;
   }
+  .mobile-nav {
+    left: -92dvw;
+    width: 92dvw;
+  }
+  .mobile-nav .nav-items {
+    letter-spacing: 0.125dvw;
+    padding: 5.79dvw;
+    font-size: 5dvw;
+  }
+  .mobile-nav .social-media-link a {
+    display: block;
+  }
+  .mobile-nav .social-media-link a svg {
+    width: 6.4dvw;
+    height: 6.4dvw;
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

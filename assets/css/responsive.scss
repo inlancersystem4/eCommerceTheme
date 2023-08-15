@@ -798,4 +798,30 @@
 
     }
 
+
+
+    .mobile-nav {
+        left: -92dvw;
+        width: 92dvw;
+
+        .nav-items {
+            letter-spacing: .125dvw;
+            padding: 5.79dvw;
+            font-size: 5dvw;
+        }
+
+        .social-media-link {
+            a {
+                display: block;
+
+                svg {
+                    width: 6.4dvw;
+                    height: 6.4dvw;
+                    display: block;
+                }
+            }
+        }
+
+    }
+
 }

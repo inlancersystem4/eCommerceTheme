@@ -1867,6 +1867,9 @@ a:hover {
     padding: 5.79dvw;
     font-size: 5dvw;
   }
+  .mobile-nav .nav-items svg {
+    width: 6.77dvw;
+  }
   .mobile-nav .social-media-link a {
     display: block;
   }

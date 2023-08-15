@@ -743,4 +743,59 @@
             }
         }
     }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+
+
+        .footer-column {
+            border-left: 0;
+            padding: 9.66dvw 5.79dvw;
+
+
+            .footer-colum-wrap-links {
+                margin-bottom: 4.28dvw;
+                grid-row-gap: 2.05dvw;
+            }
+
+            .footer-title {
+                margin-bottom: 3.15dvw;
+            }
+
+
+            .caption-small {
+                font-size: 3.7dvw;
+            }
+
+
+            .input-group {
+
+                input {
+                    padding: 3.34vw 2.08vw !important;
+                }
+
+                .button {
+                    padding: 3.34vw 2.08vw !important;
+                }
+            }
+
+        }
+
+        .social-media-link {
+            gap: 6dvw;
+
+            a {
+                display: block;
+
+                svg {
+                    width: 6.425vw;
+                    height: 6.425vw;
+                    display: block;
+                }
+
+            }
+        }
+
+    }
+
 }

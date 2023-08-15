@@ -11,15 +11,15 @@
             <h5 class="footer-title">Contact Us</h5>
             <div class="footer-colum-wrap-links">
                 <p class="caption-small">Address</p>
-                <a href="#">15/4 Khreshchatyk Street, Kyiv</a>
+                <a href="#" class="link">15/4 Khreshchatyk Street, Kyiv</a>
             </div>
             <div class="footer-colum-wrap-links">
                 <p class="caption-small">Phone</p>
-                <a href="#">+380980099777</a>
+                <a href="#" class="link">+380980099777</a>
             </div>
             <div class="footer-colum-wrap-links">
                 <p class="caption-small">General Enquiry:</p>
-                <a href="#">jeetkasundra3@gmail.com</a>
+                <a href="#" class="link">jeetkasundra3@gmail.com</a>
             </div>
             <h5 class="footer-title"></h5>
             <h5 class="footer-title">Follow Us</h5>

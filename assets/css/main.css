@@ -1824,4 +1824,38 @@ a:hover {
   .choose_us-section .grid-wrapper-right .content .title {
     margin-bottom: 4.28dvw;
   }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid .footer-column {
+    border-left: 0;
+    padding: 9.66dvw 5.79dvw;
+  }
+  .footer-grid .footer-column .footer-colum-wrap-links {
+    margin-bottom: 4.28dvw;
+    grid-row-gap: 2.05dvw;
+  }
+  .footer-grid .footer-column .footer-title {
+    margin-bottom: 3.15dvw;
+  }
+  .footer-grid .footer-column .caption-small {
+    font-size: 3.7dvw;
+  }
+  .footer-grid .footer-column .input-group input {
+    padding: 3.34vw 2.08vw !important;
+  }
+  .footer-grid .footer-column .input-group .button {
+    padding: 3.34vw 2.08vw !important;
+  }
+  .footer-grid .social-media-link {
+    gap: 6dvw;
+  }
+  .footer-grid .social-media-link a {
+    display: block;
+  }
+  .footer-grid .social-media-link a svg {
+    width: 6.425vw;
+    height: 6.425vw;
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

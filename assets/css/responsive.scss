@@ -166,6 +166,13 @@
         }
     }
 
+    .contact-section {
+        .grid-wrapper-right {
+            .set-bottom {
+                border-bottom: 1px solid $color7;
+            }
+        }
+    }
 
     .servicesection {
 
@@ -845,5 +852,44 @@
     .bg-section {
         height: 124dvw;
     }
+
+    .contact-section {
+
+        .section-heading {
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 2.08vw 10.99dvw;
+        }
+
+        .section-box-wrap {
+            height: auto;
+            align-items: flex-start;
+            padding: 10.88dvw 10.99dvw;
+
+            .link-with-icon {
+                margin-bottom: 3.3dvw;
+            }
+        }
+
+        .grid-wrapper-left {
+            .container {
+                grid-template-columns: 1fr;
+
+                .grid-wrapper-right {
+                    border-left: 0;
+                    border-top: 1px solid $color7;
+                }
+            }
+        }
+    }
+
+    .servicesection {
+        .grid-wrapper-left {
+            .fix-height {
+                height: 90dvw;
+            }
+        }
+    }
+
 
 }

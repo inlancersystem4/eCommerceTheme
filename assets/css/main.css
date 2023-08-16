@@ -1467,6 +1467,9 @@ a:hover {
   .contact-section .grid-wrapper-right .relative-copy {
     width: 100%;
   }
+  .contact-section .grid-wrapper-right .set-bottom {
+    border-bottom: 1px solid #000000;
+  }
   .servicesection .grid-wrapper-right .flex-vertical-center .overline {
     margin-bottom: 3.15vw;
   }
@@ -1887,5 +1890,28 @@ a:hover {
   }
   .bg-section {
     height: 124dvw;
+  }
+  .contact-section .section-heading {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2.08vw 10.99dvw;
+  }
+  .contact-section .section-box-wrap {
+    height: auto;
+    align-items: flex-start;
+    padding: 10.88dvw 10.99dvw;
+  }
+  .contact-section .section-box-wrap .link-with-icon {
+    margin-bottom: 3.3dvw;
+  }
+  .contact-section .grid-wrapper-left .container {
+    grid-template-columns: 1fr;
+  }
+  .contact-section .grid-wrapper-left .container .grid-wrapper-right {
+    border-left: 0;
+    border-top: 1px solid #000000;
+  }
+  .servicesection .grid-wrapper-left .fix-height {
+    height: 90dvw;
   }
 }/*# sourceMappingURL=main.css.map */

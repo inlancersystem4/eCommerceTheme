@@ -1809,6 +1809,13 @@ a:hover {
     height: 53.4dvw;
     padding: 3.2dvw;
   }
+  .shop-card-category .card-category .content-card .link {
+    gap: 1.2dvw;
+  }
+  .shop-card-category .card-category .content-card .link img {
+    width: 4.4dvw;
+    height: 4.4dvw;
+  }
   .shop-card-category .card-category-img {
     height: 53.4dvw;
   }

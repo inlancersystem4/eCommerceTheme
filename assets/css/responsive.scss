@@ -711,12 +711,24 @@
         .card-category {
             height: 53.4dvw;
             padding: 3.2dvw;
+
+            .content-card {
+                .link {
+                    gap: 1.2dvw;
+
+                    img {
+                        width: 4.4dvw;
+                        height: 4.4dvw;
+                    }
+                }
+            }
         }
 
         .card-category-img {
             height: 53.4dvw
         }
     }
+
 
     .aboutsection {
         .grid-wrapper-right {

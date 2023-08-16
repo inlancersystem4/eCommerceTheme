@@ -1354,6 +1354,41 @@ a:hover {
   color: rgba(18, 18, 18, 0.9);
 }
 
+.shop-card-category .card-category-img {
+  overflow: hidden;
+}
+.shop-card-category .card-category-img img {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.shop-card-category .card-category .content-card .link img {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.shop-card-category:hover .card-category-img {
+  overflow: hidden;
+}
+.shop-card-category:hover .card-category-img img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.shop-card-category:hover .card-category .content-card .link img {
+  transform: translateX(1dvw);
+  -webkit-transform: translateX(1dvw);
+  -moz-transform: translateX(1dvw);
+  -ms-transform: translateX(1dvw);
+  -o-transform: translateX(1dvw);
+}
+
 @media (max-width: 992px) {
   html,
   body {
@@ -1891,6 +1926,17 @@ a:hover {
   .bg-section {
     height: 124dvw;
   }
+  .contact-section .social-media-link {
+    justify-content: space-around;
+  }
+  .contact-section .social-media-link a {
+    display: block;
+  }
+  .contact-section .social-media-link a svg {
+    width: 4.77dvw;
+    height: 4.77dvw;
+    display: block;
+  }
   .contact-section .section-heading {
     align-items: flex-start;
     justify-content: flex-start;
@@ -1913,5 +1959,11 @@ a:hover {
   }
   .servicesection .grid-wrapper-left .fix-height {
     height: 90dvw;
+  }
+  .product-category .grid-wrapper-right .product-list-grid {
+    grid-template-columns: 1fr;
+  }
+  .product-category .grid-wrapper-right .product-list-grid .product-card {
+    height: 100dvw;
   }
 }/*# sourceMappingURL=main.css.map */

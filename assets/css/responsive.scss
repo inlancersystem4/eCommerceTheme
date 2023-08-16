@@ -855,6 +855,20 @@
 
     .contact-section {
 
+        .social-media-link {
+            justify-content: space-around;
+
+            a {
+                display: block;
+
+                svg {
+                    width: 4.77dvw;
+                    height: 4.77dvw;
+                    display: block;
+                }
+            }
+        }
+
         .section-heading {
             align-items: flex-start;
             justify-content: flex-start;
@@ -890,6 +904,20 @@
             }
         }
     }
+
+    .product-category {
+
+        .grid-wrapper-right {
+            .product-list-grid {
+                grid-template-columns: 1fr;
+
+                .product-card {
+                    height: 100dvw;
+                }
+            }
+        }
+    }
+
 
 
 }
